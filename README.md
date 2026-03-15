@@ -71,8 +71,6 @@ Dataset chứa các thông tin liên quan đến:
 
 
 
- 
-
 # Các biến quan trọng sử dụng trong phân tích
 PersonID: Mã định danh duy nhất của mỗi cá nhân trong dataset.
 
