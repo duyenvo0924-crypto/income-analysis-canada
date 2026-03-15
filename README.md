@@ -59,41 +59,41 @@ Dataset chứa các thông tin liên quan đến:
 # Các biến quan trọng sử dụng trong phân tích
 PersonID: Mã định danh duy nhất của mỗi cá nhân trong dataset.
 
-Gender: Giới tính của cá nhân (Nam/Nữ).
+- Gender: Giới tính của cá nhân (Nam/Nữ).
 
-Age_gap: Nhóm tuổi của cá nhân.
+- Age_gap: Nhóm tuổi của cá nhân.
 
-Marital_status: Tình trạng hôn nhân của cá nhân (độc thân, đã kết hôn, ly hôn,…).
+- Marital_status: Tình trạng hôn nhân của cá nhân (độc thân, đã kết hôn, ly hôn,…).
 
-Province: Tỉnh hoặc khu vực nơi cá nhân sinh sống.
+- Province: Tỉnh hoặc khu vực nơi cá nhân sinh sống.
 
-Highest_edu: Trình độ học vấn cao nhất mà cá nhân đạt được.
+- Highest_edu: Trình độ học vấn cao nhất mà cá nhân đạt được.
 
-Work_ref: Tình trạng việc làm của cá nhân trong thời điểm khảo sát.
+- Work_ref: Tình trạng việc làm của cá nhân trong thời điểm khảo sát.
 
-Work_yearly: Thông tin về việc cá nhân có tham gia lao động trong năm hay không.
+- Work_yearly: Thông tin về việc cá nhân có tham gia lao động trong năm hay không.
 
-Total_hour_ref: Tổng số giờ làm việc của cá nhân trong khoảng thời gian tham chiếu.
+- Total_hour_ref: Tổng số giờ làm việc của cá nhân trong khoảng thời gian tham chiếu.
 
-Salary_wages: Thu nhập của cá nhân từ lương hoặc tiền công lao động.
+- Salary_wages: Thu nhập của cá nhân từ lương hoặc tiền công lao động.
 
-Self_emp_income: Thu nhập từ hoạt động tự kinh doanh.
+- Self_emp_income: Thu nhập từ hoạt động tự kinh doanh.
 
-Investment: Thu nhập từ các khoản đầu tư tài chính.
+- Investment: Thu nhập từ các khoản đầu tư tài chính.
 
-Pension: Thu nhập từ lương hưu.
+- Pension: Thu nhập từ lương hưu.
 
-Cap_gain: Thu nhập từ lãi vốn (capital gains).
+- Cap_gain: Thu nhập từ lãi vốn (capital gains).
 
-CPP_QPP: Thu nhập từ chương trình lương hưu công cộng.
+- CPP_QPP: Thu nhập từ chương trình lương hưu công cộng.
 
-Emp_insurance: Thu nhập từ bảo hiểm thất nghiệp.
+- Emp_insurance: Thu nhập từ bảo hiểm thất nghiệp.
 
-Child_benefit: Trợ cấp dành cho gia đình có con nhỏ.
+- Child_benefit: Trợ cấp dành cho gia đình có con nhỏ.
 
-Guaranteed_income: Trợ cấp thu nhập từ chính phủ.
+- Guaranteed_income: Trợ cấp thu nhập từ chính phủ.
 
-Total_income: Tổng thu nhập của cá nhân từ tất cả các nguồn.
+- Total_income: Tổng thu nhập của cá nhân từ tất cả các nguồn.
 
 # 3. Phương pháp phân tích (Methodology)
 
