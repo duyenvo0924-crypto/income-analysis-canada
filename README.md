@@ -155,6 +155,9 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 | 100k+          |   25713 |
 
 ## Biểu đồ:
+People Count =
+COUNT('Fact Income'[PersonID])
+
 ## Kết luận: Phân bố thu nhập cho thấy phần lớn cá nhân tập trung ở nhóm thu nhập trung bình từ 20,000 đến 60,000. Nhóm thu nhập rất cao chiếm tỷ lệ nhỏ, cho thấy phân bố thu nhập trong dataset có xu hướng lệch phải.
 
 # Phân tích 2: Trình độ học vấn có ảnh hưởng đến thu nhập không?
@@ -194,6 +197,7 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 | 60-80        |       106251   |
 
 ## Biểu đồ:
+
 ## Kết luận: Kết quả cho thấy thu nhập có xu hướng tăng theo số giờ làm việc. Những người làm việc toàn thời gian có thu nhập trung bình cao hơn so với những người làm việc bán thời gian.
 
 # Phân tích 5: Tình trạng việc làm ảnh hưởng đến thu nhập như thế nào?
