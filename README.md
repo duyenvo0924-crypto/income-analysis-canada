@@ -136,3 +136,71 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 2. Power BI: Trực quan hóa dữ liệu
 
 3. Github: Trình bày báo cáo
+
+
+### BAÌ PHÂN TÍCH
+## Phân tích 1:Thu nhập của các cá nhân trong dataset phân bố như thế nào?
+
+# Giả thuyết: Thu nhập có xu hướng ở mức thu nhập thấp hoặc trung bình và chỉ một số ít có thu nhập rất cao.
+| income_group   |   count |
+|:---------------|--------:|
+| 0-20k          |    2443 |
+| 20k-40k        |    8408 |
+| 40k-60k        |    9322 |
+| 60k-80k        |    9672 |
+| 80k-100k       |    9126 |
+| 100k+          |   25713 |
+
+# Biểu đồ:
+# Kết luận: Phân bố thu nhập cho thấy phần lớn cá nhân tập trung ở nhóm thu nhập trung bình từ 20,000 đến 60,000. Nhóm thu nhập rất cao chiếm tỷ lệ nhỏ, cho thấy phân bố thu nhập trong dataset có xu hướng lệch phải.
+
+## Phân tích 2: Trình độ học vấn có ảnh hưởng đến thu nhập không?
+
+# Giả thuyết: Những cá nhân có trình độ học vấn cao hơn sẽ có thu nhập trung bình cao hơn.
+|   Highest_edu |   Total_income |
+|--------------:|---------------:|
+|             4 |       138171   |
+|             6 |       123514   |
+|             3 |       105978   |
+|             2 |       101793   |
+|             9 |        85359.4 |
+|             1 |        78467.2 |
+
+# Biểu đồ:
+# Kết luận: Phân tích cho thấy thu nhập trung bình tăng theo trình độ học vấn. Những cá nhân có trình độ đại học hoặc cao hơn có mức thu nhập trung bình cao hơn đáng kể so với những người chỉ có trình độ trung học.
+
+## Phân tích 3: Có sự khác biệt thu nhập giữa nam và nữ không?
+
+# Giả thuyết: Nam giới có thu nhập trung bình cao hơn nữ giới.
+| Gender   |   Total_income |
+|:---------|---------------:|
+| Female   |         108863 |
+| Male     |         113634 |
+
+# Biểu đồ:
+# Kết luận: Kết quả phân tích cho thấy có sự khác biệt về thu nhập giữa nam và nữ. Thu nhập trung bình của nam cao hơn nữ, phản ánh khả năng tồn tại khoảng cách thu nhập theo giới trong thị trường lao động.
+
+## Phân tích 4: Số giờ làm việc có ảnh hưởng đến thu nhập không?
+
+# Giả thuyết: Những người làm việc nhiều giờ hơn có thu nhập cao hơn.
+| hour_group   |   Total_income |
+|:-------------|---------------:|
+| 0-20         |        92338.2 |
+| 20-40        |        99924.6 |
+| 40-60        |        97230.3 |
+| 60-80        |       106251   |
+
+# Biểu đồ:
+# Kết luận: Kết quả cho thấy thu nhập có xu hướng tăng theo số giờ làm việc. Những người làm việc toàn thời gian có thu nhập trung bình cao hơn so với những người làm việc bán thời gian.
+
+## Phân tích 5: Tình trạng việc làm ảnh hưởng đến thu nhập như thế nào?
+
+# Giả thuyết: Những cá nhân đang làm việc có thu nhập cao hơn những người không làm việc.
+|   Work_ref |   Total_income |
+|-----------:|---------------:|
+|          1 |       125870   |
+|          2 |        75723.2 |
+|          6 |       123514   |
+
+# Biểu đồ:
+# Kết luận: Những cá nhân đang tham gia thị trường lao động có thu nhập trung bình cao hơn đáng kể so với những người không tham gia lực lượng lao động. Điều này cho thấy việc làm đóng vai trò quan trọng trong việc đảm bảo ổn định kinh tế.
