@@ -164,12 +164,12 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 ## Giả thuyết: Những cá nhân có trình độ học vấn cao hơn sẽ có thu nhập trung bình cao hơn.
 | Highest_edu               |   Total_income |
 |:--------------------------|---------------:|
-| Bachelor Degree           |       138171   |
-| Postgraduate (Master/PhD) |       123514   |
+| Bachelor Degree           |       123514   |
+| Below High School         |        78467.2 |
 | College / Diploma         |       105978   |
 | High School               |       101793   |
+| Postgraduate (Master/PhD) |       138171   |
 | Unknown / Not Stated      |        85359.4 |
-| Below High School         |        78467.2 |
 
 ## Biểu đồ:
 <img width="680" height="353" alt="image" src="https://github.com/user-attachments/assets/2e0f0bde-09dc-41f1-836f-5745aa853314" />
@@ -246,6 +246,28 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 
 ## Kết luận: Dữ liệu cho thấy thu nhập chủ yếu đến từ tiền lương (Salary_wages), chiếm tỷ trọng áp đảo trong tổng thu nhập. Các nguồn thu khác như lương hưu (Pension), đầu tư (Investment) và tự kinh doanh (Self_employment) đóng góp tỷ lệ nhỏ hơn đáng kể. Điều này cho thấy thu nhập của cá nhân trong dataset phụ thuộc mạnh vào nguồn thu từ lao động chính.
 
+# Phân tích 8: Thu nhập trung bình thay đổi như thế nào theo độ tuổi (Age_gap)? Có tồn tại một “điểm đỉnh” trong vòng đời thu nhập hay không?
+## Giả thuyết: Thu nhập tăng dần theo độ tuổi trong giai đoạn đầu sự nghiệp, đạt mức cao nhất ở nhóm trung niên, sau đó giảm dần ở các nhóm tuổi lớn hơn.
+  Age_gap |   Total_income |
+|----------:|---------------:|
+|         1 |       116134   |
+|         2 |       121822   |
+|         3 |       131480   |
+|         4 |       143716   |
+|         5 |       128134   |
+|         6 |       103008   |
+|         7 |       110007   |
+|         8 |       117014   |
+|         9 |       126677   |
+|        10 |       136084   |
+|        11 |       132961   |
+|        12 |       117105   |
+|        13 |       102257   |
+|        14 |        86528.7 |
+|        15 |        70890   |
 
+## Biểu đồ:
+<img width="596" height="331" alt="image" src="https://github.com/user-attachments/assets/c6a8dd99-4876-4f1c-b748-d794cb757bcf" />
 
+## Kết luận: Dữ liệu cho thấy thu nhập trung bình không tăng tuyến tính theo độ tuổi mà có dạng “hình chuông” (inverted U-shape). Thu nhập tăng dần ở các nhóm tuổi trẻ, đạt đỉnh ở nhóm trung niên, sau đó giảm dần ở các nhóm tuổi cao hơn. Điều này phản ánh quy luật vòng đời thu nhập, trong đó thu nhập cao nhất đạt được khi cá nhân tích lũy đủ kinh nghiệm và đạt vị trí nghề nghiệp ổn định.
 
