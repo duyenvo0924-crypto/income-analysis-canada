@@ -155,25 +155,26 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 | 100k+          |   25713 |
 
 ## Biểu đồ:
-People Count =
-COUNT('Fact Income'[PersonID])
+<img width="961" height="504" alt="image" src="https://github.com/user-attachments/assets/a34d0b1c-1f65-4fdc-a265-e5faa19a3187" />
 
-## Kết luận: Phân bố thu nhập cho thấy phần lớn cá nhân tập trung ở nhóm thu nhập trung bình từ 20,000 đến 60,000. Nhóm thu nhập rất cao chiếm tỷ lệ nhỏ, cho thấy phân bố thu nhập trong dataset có xu hướng lệch phải.
+## Kết luận: thu nhập không tập trung ở nhóm thấp như giả định ban đầu, mà ngược lại bị chi phối mạnh bởi nhóm thu nhập rất cao (100k+). Các nhóm thu nhập trung bình phân bố khá đồng đều, trong khi nhóm thu nhập thấp chiếm tỷ trọng nhỏ. Điều này cho thấy phân phối thu nhập trong dataset có xu hướng lệch về phía thu nhập cao.
 
 # Phân tích 2: Trình độ học vấn có ảnh hưởng đến thu nhập không?
 
 ## Giả thuyết: Những cá nhân có trình độ học vấn cao hơn sẽ có thu nhập trung bình cao hơn.
-|   Highest_edu |   Total_income |
-|--------------:|---------------:|
-|             4 |       138171   |
-|             6 |       123514   |
-|             3 |       105978   |
-|             2 |       101793   |
-|             9 |        85359.4 |
-|             1 |        78467.2 |
+| Highest_edu               |   Total_income |
+|:--------------------------|---------------:|
+| Bachelor Degree           |       138171   |
+| Postgraduate (Master/PhD) |       123514   |
+| College / Diploma         |       105978   |
+| High School               |       101793   |
+| Unknown / Not Stated      |        85359.4 |
+| Below High School         |        78467.2 |
 
 ## Biểu đồ:
-## Kết luận: Phân tích cho thấy thu nhập trung bình tăng theo trình độ học vấn. Những cá nhân có trình độ đại học hoặc cao hơn có mức thu nhập trung bình cao hơn đáng kể so với những người chỉ có trình độ trung học.
+<img width="680" height="353" alt="image" src="https://github.com/user-attachments/assets/2e0f0bde-09dc-41f1-836f-5745aa853314" />
+
+## Kết luận: Dữ liệu cho thấy trình độ học vấn có ảnh hưởng rõ rệt đến thu nhập: học vấn càng cao thì thu nhập trung bình càng lớn. Đồng thời, tồn tại chênh lệch thu nhập giữa nam và nữ trong tất cả các nhóm học vấn, với nam có xu hướng thu nhập cao hơn, tuy nhiên mức chênh lệch này tương đối ổn định và không quá lớn.
 
 # Phân tích 3: Có sự khác biệt thu nhập giữa nam và nữ không?
 
@@ -184,7 +185,9 @@ COUNT('Fact Income'[PersonID])
 | Male     |         113634 |
 
 ## Biểu đồ:
-## Kết luận: Kết quả phân tích cho thấy có sự khác biệt về thu nhập giữa nam và nữ. Thu nhập trung bình của nam cao hơn nữ, phản ánh khả năng tồn tại khoảng cách thu nhập theo giới trong thị trường lao động.
+<img width="476" height="367" alt="image" src="https://github.com/user-attachments/assets/1b129eff-a43d-4066-a7b6-f02323d2dc7d" />
+
+## Kết luận: Dữ liệu cho thấy tồn tại chênh lệch thu nhập theo giới tính, với nam có thu nhập trung bình cao hơn nữ. Tuy nhiên, mức chênh lệch tương đối nhỏ (~4%), cho thấy khoảng cách thu nhập là có nhưng không quá lớn trong dataset này.
 
 # Phân tích 4: Số giờ làm việc có ảnh hưởng đến thu nhập không?
 
@@ -197,17 +200,20 @@ COUNT('Fact Income'[PersonID])
 | 60-80        |       106251   |
 
 ## Biểu đồ:
+<img width="699" height="366" alt="image" src="https://github.com/user-attachments/assets/5569e4f6-fcb2-432f-b464-b73bf7cf9fcb" />
 
-## Kết luận: Kết quả cho thấy thu nhập có xu hướng tăng theo số giờ làm việc. Những người làm việc toàn thời gian có thu nhập trung bình cao hơn so với những người làm việc bán thời gian.
+## Kết luận: Dữ liệu cho thấy thu nhập có xu hướng tăng theo số giờ làm việc, đặc biệt ở nhóm làm việc rất nhiều giờ (60–80 giờ/tuần). Tuy nhiên, mối quan hệ này không hoàn toàn tuyến tính do tồn tại nhóm 40–60 giờ có thu nhập thấp hơn các nhóm khác. Điều này cho thấy ngoài số giờ làm việc, các yếu tố như loại công việc, hình thức trả lương và ngành nghề cũng ảnh hưởng đáng kể đến thu nhập.
 
 # Phân tích 5: Tình trạng việc làm ảnh hưởng đến thu nhập như thế nào?
 
 ## Giả thuyết: Những cá nhân đang làm việc có thu nhập cao hơn những người không làm việc.
-|   Work_ref |   Total_income |
-|-----------:|---------------:|
-|          1 |       125870   |
-|          2 |        75723.2 |
-|          6 |       123514   |
+| Work_ref            |   Total_income |
+|:--------------------|---------------:|
+| Employed            |       125870   |
+| Not in labour force |       123514   |
+| Unemployed          |        75723.2 |
 
 # Biểu đồ:
-# Kết luận: Những cá nhân đang tham gia thị trường lao động có thu nhập trung bình cao hơn đáng kể so với những người không tham gia lực lượng lao động. Điều này cho thấy việc làm đóng vai trò quan trọng trong việc đảm bảo ổn định kinh tế.
+<img width="657" height="368" alt="image" src="https://github.com/user-attachments/assets/aaa39f18-d675-4760-8ec7-aed6f66a0ae1" />
+
+# Kết luận: Dữ liệu cho thấy những người có việc làm có thu nhập trung bình cao nhất, trong khi nhóm thất nghiệp có thu nhập thấp hơn đáng kể. Tuy nhiên, nhóm không tham gia lực lượng lao động lại có mức thu nhập gần tương đương với nhóm có việc làm, cho thấy thu nhập không chỉ phụ thuộc vào tình trạng việc làm mà còn có thể đến từ các nguồn khác như đầu tư hoặc tài sản.
