@@ -138,11 +138,11 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 3. Github: Trình bày báo cáo
 
 
-### BAÌ PHÂN TÍCH
+# BÀI PHÂN TÍCH
 # Cấu trúc dữ liệu
 <img width="1228" height="673" alt="image" src="https://github.com/user-attachments/assets/0dfbfc4f-dee3-46f2-8c90-eab83659213e" />
 
-# Phân tích 1:Thu nhập của các cá nhân trong dataset phân bố như thế nào?
+# Phân tích 1: Thu nhập của các cá nhân trong dataset phân bố như thế nào?
 
 ## Giả thuyết: Thu nhập có xu hướng ở mức thu nhập thấp hoặc trung bình và chỉ một số ít có thu nhập rất cao.
 | income_group   |   count |
@@ -213,7 +213,39 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 | Not in labour force |       123514   |
 | Unemployed          |        75723.2 |
 
-# Biểu đồ:
+## Biểu đồ:
 <img width="657" height="368" alt="image" src="https://github.com/user-attachments/assets/aaa39f18-d675-4760-8ec7-aed6f66a0ae1" />
 
-# Kết luận: Dữ liệu cho thấy những người có việc làm có thu nhập trung bình cao nhất, trong khi nhóm thất nghiệp có thu nhập thấp hơn đáng kể. Tuy nhiên, nhóm không tham gia lực lượng lao động lại có mức thu nhập gần tương đương với nhóm có việc làm, cho thấy thu nhập không chỉ phụ thuộc vào tình trạng việc làm mà còn có thể đến từ các nguồn khác như đầu tư hoặc tài sản.
+## Kết luận: Dữ liệu cho thấy những người có việc làm có thu nhập trung bình cao nhất, trong khi nhóm thất nghiệp có thu nhập thấp hơn đáng kể. Tuy nhiên, nhóm không tham gia lực lượng lao động lại có mức thu nhập gần tương đương với nhóm có việc làm, cho thấy thu nhập không chỉ phụ thuộc vào tình trạng việc làm mà còn có thể đến từ các nguồn khác như đầu tư hoặc tài sản.
+
+# Phân tích 6: Tình trạng hôn nhân có ảnh hưởng đến thu nhập trung bình của cá nhân hay không?
+## Giả thuyết: Những người đã kết hôn có xu hướng thu nhập cao hơn so với những người chưa kết hôn hoặc đã ly hôn.
+| Marital_status   |   Total_income |
+|:-----------------|---------------:|
+| Divorced         |          77109 |
+| Married          |         118724 |
+| Single           |         122935 |
+| Widowed          |         104831 |
+
+## Biểu đồ:
+<img width="701" height="367" alt="image" src="https://github.com/user-attachments/assets/a32351e9-4c20-4e65-bc30-8580fa5e0460" />
+
+## Kết luận: Dữ liệu cho thấy tình trạng hôn nhân có ảnh hưởng đến thu nhập, tuy nhiên không theo hướng giả định ban đầu. Người độc thân có thu nhập trung bình cao nhất, trong khi người đã kết hôn đứng thứ hai. Nhóm ly hôn có thu nhập thấp nhất, cho thấy tình trạng hôn nhân có thể liên quan đến sự ổn định tài chính, nhưng không phải là yếu tố quyết định duy nhất.
+
+# Phân tích 7: Nguồn thu nhập chính của người dân đến từ đâu và mức độ đóng góp của từng nguồn là như thế nào?
+## Giả thuyết: Thu nhập từ lương (salary) chiếm tỷ trọng lớn nhất trong tổng thu nhập, trong khi các nguồn như đầu tư, tự kinh doanh và lương hưu chiếm tỷ trọng nhỏ hơn.
+| Income_source   | Total_amount   |
+|:----------------|:---------------|
+| Salary_wages    | 5,649,484,875  |
+| Self_emp_income | 101,404,375    |
+| Investment      | 169,875,700    |
+| Pension         | 556,811,000    |
+
+## Biểu đồ:
+<img width="678" height="370" alt="image" src="https://github.com/user-attachments/assets/20b944c1-148d-4f35-b60e-360e160d6d1c" />
+
+## Kết luận: Dữ liệu cho thấy thu nhập chủ yếu đến từ tiền lương (Salary_wages), chiếm tỷ trọng áp đảo trong tổng thu nhập. Các nguồn thu khác như lương hưu (Pension), đầu tư (Investment) và tự kinh doanh (Self_employment) đóng góp tỷ lệ nhỏ hơn đáng kể. Điều này cho thấy thu nhập của cá nhân trong dataset phụ thuộc mạnh vào nguồn thu từ lao động chính.
+
+
+
+
