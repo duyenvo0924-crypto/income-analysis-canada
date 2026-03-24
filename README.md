@@ -29,10 +29,10 @@ Các câu hỏi nghiên cứu chính của bài phân tích gồm:
   1. Thu nhập của người dân Canada phân bố như thế nào?
   2. Trình độ học vấn có ảnh hưởng đến thu nhập hay không?
   3. Thu nhập có khác biệt giữa nam và nữ không?
-  4. Thu nhập thay đổi như thế nào theo độ tuổi?
-  5. Người nhập cư có mức thu nhập khác so với người bản địa không?
-  6. Nguồn thu nhập chính của người dân là gì?
-
+  4. Tình trạng hôn nhân có ảnh hưởng đến thu nhập trung bình của cá nhân hay không?
+  6. Thu nhập trung bình thay đổi như thế nào theo độ tuổi (Age_gap)? Có tồn tại một “điểm đỉnh” trong vòng đời thu nhập hay không?
+  7. Tình trạng việc làm ảnh hưởng đến thu nhập như thế nào?
+  8. Nguồn thu nhập chính của người dân đến từ đâu và mức độ đóng góp của từng nguồn là như thế nào?
 
 # 2. Mô tả dữ liệu
 
