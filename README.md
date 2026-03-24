@@ -155,7 +155,7 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 | 100k+          |   25713 |
 
 ### Biểu đồ:
-<img width="961" height="504" alt="image" src="https://github.com/user-attachments/assets/a34d0b1c-1f65-4fdc-a265-e5faa19a3187" />
+<img width="702" height="368" alt="image" src="https://github.com/user-attachments/assets/d685f12e-93ef-4056-984d-02cdbc52b60b" />
 
 ### Kết luận: thu nhập không tập trung ở nhóm thấp như giả định ban đầu, mà ngược lại bị chi phối mạnh bởi nhóm thu nhập rất cao (100k+). Các nhóm thu nhập trung bình phân bố khá đồng đều, trong khi nhóm thu nhập thấp chiếm tỷ trọng nhỏ. Điều này cho thấy phân phối thu nhập trong dataset có xu hướng lệch về phía thu nhập cao.
 
@@ -172,7 +172,7 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 | Unknown / Not Stated      |        85359.4 |
 
 ### Biểu đồ:
-<img width="680" height="353" alt="image" src="https://github.com/user-attachments/assets/2e0f0bde-09dc-41f1-836f-5745aa853314" />
+<img width="720" height="412" alt="image" src="https://github.com/user-attachments/assets/abf05b12-96fb-4ba0-9662-2478c7ab20f4" />
 
 ### Kết luận: Dữ liệu cho thấy trình độ học vấn có ảnh hưởng rõ rệt đến thu nhập: học vấn càng cao thì thu nhập trung bình càng lớn. Đồng thời, tồn tại chênh lệch thu nhập giữa nam và nữ trong tất cả các nhóm học vấn, với nam có xu hướng thu nhập cao hơn, tuy nhiên mức chênh lệch này tương đối ổn định và không quá lớn.
 
@@ -185,40 +185,11 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 | Male     |         113634 |
 
 ### Biểu đồ:
-<img width="476" height="367" alt="image" src="https://github.com/user-attachments/assets/1b129eff-a43d-4066-a7b6-f02323d2dc7d" />
+<img width="689" height="366" alt="image" src="https://github.com/user-attachments/assets/6c2e25c1-8975-4964-9b6a-ff7927e1e77f" />
 
 ### Kết luận: Dữ liệu cho thấy tồn tại chênh lệch thu nhập theo giới tính, với nam có thu nhập trung bình cao hơn nữ. Tuy nhiên, mức chênh lệch tương đối nhỏ (~4%), cho thấy khoảng cách thu nhập là có nhưng không quá lớn trong dataset này.
 
-# Phân tích 4: Số giờ làm việc có ảnh hưởng đến thu nhập không?
-
-### Giả thuyết: Những người làm việc nhiều giờ hơn có thu nhập cao hơn.
-| hour_group   |   Total_income |
-|:-------------|---------------:|
-| 0-20         |        92338.2 |
-| 20-40        |        99924.6 |
-| 40-60        |        97230.3 |
-| 60-80        |       106251   |
-
-### Biểu đồ:
-<img width="699" height="366" alt="image" src="https://github.com/user-attachments/assets/5569e4f6-fcb2-432f-b464-b73bf7cf9fcb" />
-
-### Kết luận: Dữ liệu cho thấy thu nhập có xu hướng tăng theo số giờ làm việc, đặc biệt ở nhóm làm việc rất nhiều giờ (60–80 giờ/tuần). Tuy nhiên, mối quan hệ này không hoàn toàn tuyến tính do tồn tại nhóm 40–60 giờ có thu nhập thấp hơn các nhóm khác. Điều này cho thấy ngoài số giờ làm việc, các yếu tố như loại công việc, hình thức trả lương và ngành nghề cũng ảnh hưởng đáng kể đến thu nhập.
-
-# Phân tích 5: Tình trạng việc làm ảnh hưởng đến thu nhập như thế nào?
-
-### Giả thuyết: Những cá nhân đang làm việc có thu nhập cao hơn những người không làm việc.
-| Work_ref            |   Total_income |
-|:--------------------|---------------:|
-| Employed            |       125870   |
-| Not in labour force |       123514   |
-| Unemployed          |        75723.2 |
-
-### Biểu đồ:
-<img width="657" height="368" alt="image" src="https://github.com/user-attachments/assets/aaa39f18-d675-4760-8ec7-aed6f66a0ae1" />
-
-### Kết luận: Dữ liệu cho thấy những người có việc làm có thu nhập trung bình cao nhất, trong khi nhóm thất nghiệp có thu nhập thấp hơn đáng kể. Tuy nhiên, nhóm không tham gia lực lượng lao động lại có mức thu nhập gần tương đương với nhóm có việc làm, cho thấy thu nhập không chỉ phụ thuộc vào tình trạng việc làm mà còn có thể đến từ các nguồn khác như đầu tư hoặc tài sản.
-
-# Phân tích 6: Tình trạng hôn nhân có ảnh hưởng đến thu nhập trung bình của cá nhân hay không?
+# Phân tích 4: Tình trạng hôn nhân có ảnh hưởng đến thu nhập trung bình của cá nhân hay không?
 ### Giả thuyết: Những người đã kết hôn có xu hướng thu nhập cao hơn so với những người chưa kết hôn hoặc đã ly hôn.
 | Marital_status   |   Total_income |
 |:-----------------|---------------:|
@@ -228,25 +199,11 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 | Widowed          |         104831 |
 
 ### Biểu đồ:
-<img width="701" height="367" alt="image" src="https://github.com/user-attachments/assets/a32351e9-4c20-4e65-bc30-8580fa5e0460" />
+<img width="702" height="391" alt="image" src="https://github.com/user-attachments/assets/03f0a2d8-0415-4997-b736-c48722fe2dce" />
 
 ### Kết luận: Dữ liệu cho thấy tình trạng hôn nhân có ảnh hưởng đến thu nhập, tuy nhiên không theo hướng giả định ban đầu. Người độc thân có thu nhập trung bình cao nhất, trong khi người đã kết hôn đứng thứ hai. Nhóm ly hôn có thu nhập thấp nhất, cho thấy tình trạng hôn nhân có thể liên quan đến sự ổn định tài chính, nhưng không phải là yếu tố quyết định duy nhất.
 
-# Phân tích 7: Nguồn thu nhập chính của người dân đến từ đâu và mức độ đóng góp của từng nguồn là như thế nào?
-### Giả thuyết: Thu nhập từ lương (salary) chiếm tỷ trọng lớn nhất trong tổng thu nhập, trong khi các nguồn như đầu tư, tự kinh doanh và lương hưu chiếm tỷ trọng nhỏ hơn.
-| Income_source   | Total_amount   |
-|:----------------|:---------------|
-| Salary_wages    | 5,649,484,875  |
-| Self_emp_income | 101,404,375    |
-| Investment      | 169,875,700    |
-| Pension         | 556,811,000    |
-
-### Biểu đồ:
-<img width="678" height="370" alt="image" src="https://github.com/user-attachments/assets/20b944c1-148d-4f35-b60e-360e160d6d1c" />
-
-### Kết luận: Dữ liệu cho thấy thu nhập chủ yếu đến từ tiền lương (Salary_wages), chiếm tỷ trọng áp đảo trong tổng thu nhập. Các nguồn thu khác như lương hưu (Pension), đầu tư (Investment) và tự kinh doanh (Self_employment) đóng góp tỷ lệ nhỏ hơn đáng kể. Điều này cho thấy thu nhập của cá nhân trong dataset phụ thuộc mạnh vào nguồn thu từ lao động chính.
-
-# Phân tích 8: Thu nhập trung bình thay đổi như thế nào theo độ tuổi (Age_gap)? Có tồn tại một “điểm đỉnh” trong vòng đời thu nhập hay không?
+# Phân tích 5: Thu nhập trung bình thay đổi như thế nào theo độ tuổi (Age_gap)? Có tồn tại một “điểm đỉnh” trong vòng đời thu nhập hay không?
 ### Giả thuyết: Thu nhập tăng dần theo độ tuổi trong giai đoạn đầu sự nghiệp, đạt mức cao nhất ở nhóm trung niên, sau đó giảm dần ở các nhóm tuổi lớn hơn.
   Age_gap |   Total_income |
 |----------:|---------------:|
@@ -267,8 +224,51 @@ Rút ra các nhận định quan trọng từ dữ liệu.
 |        15 |        70890   |
 
 ### Biểu đồ:
-<img width="596" height="331" alt="image" src="https://github.com/user-attachments/assets/c6a8dd99-4876-4f1c-b748-d794cb757bcf" />
+<<img width="704" height="391" alt="image" src="https://github.com/user-attachments/assets/9f33604c-f5c8-4375-96ca-f052743d12a7" />
 
 ### Kết luận: Dữ liệu cho thấy thu nhập trung bình không tăng tuyến tính theo độ tuổi mà có dạng “hình chuông” (inverted U-shape). Thu nhập tăng dần ở các nhóm tuổi trẻ, đạt đỉnh ở nhóm trung niên, sau đó giảm dần ở các nhóm tuổi cao hơn. Điều này phản ánh quy luật vòng đời thu nhập, trong đó thu nhập cao nhất đạt được khi cá nhân tích lũy đủ kinh nghiệm và đạt vị trí nghề nghiệp ổn định.
+
+# Phân tích 6: Số giờ làm việc có ảnh hưởng đến thu nhập không?
+
+### Giả thuyết: Những người làm việc nhiều giờ hơn có thu nhập cao hơn.
+| hour_group   |   Total_income |
+|:-------------|---------------:|
+| 0-20         |        92338.2 |
+| 20-40        |        99924.6 |
+| 40-60        |        97230.3 |
+| 60-80        |       106251   |
+
+### Biểu đồ:
+<img width="638" height="390" alt="image" src="https://github.com/user-attachments/assets/42adc7be-d3de-4687-b689-0d766f8828be" />
+
+### Kết luận: Dữ liệu cho thấy thu nhập có xu hướng tăng theo số giờ làm việc, đặc biệt ở nhóm làm việc rất nhiều giờ (60–80 giờ/tuần). Tuy nhiên, mối quan hệ này không hoàn toàn tuyến tính do tồn tại nhóm 40–60 giờ có thu nhập thấp hơn các nhóm khác. Điều này cho thấy ngoài số giờ làm việc, các yếu tố như loại công việc, hình thức trả lương và ngành nghề cũng ảnh hưởng đáng kể đến thu nhập.
+
+# Phân tích 7: Tình trạng việc làm ảnh hưởng đến thu nhập như thế nào?
+
+### Giả thuyết: Những cá nhân đang làm việc có thu nhập cao hơn những người không làm việc.
+| Work_ref            |   Total_income |
+|:--------------------|---------------:|
+| Employed            |       125870   |
+| Not in labour force |       123514   |
+| Unemployed          |        75723.2 |
+
+### Biểu đồ:
+<img width="638" height="366" alt="image" src="https://github.com/user-attachments/assets/eca44452-ce5e-4f20-9e73-4f0323009be5" />
+
+### Kết luận: Dữ liệu cho thấy những người có việc làm có thu nhập trung bình cao nhất, trong khi nhóm thất nghiệp có thu nhập thấp hơn đáng kể. Tuy nhiên, nhóm không tham gia lực lượng lao động lại có mức thu nhập gần tương đương với nhóm có việc làm, cho thấy thu nhập không chỉ phụ thuộc vào tình trạng việc làm mà còn có thể đến từ các nguồn khác như đầu tư hoặc tài sản.
+
+# Phân tích 8: Nguồn thu nhập chính của người dân đến từ đâu và mức độ đóng góp của từng nguồn là như thế nào?
+### Giả thuyết: Thu nhập từ lương (salary) chiếm tỷ trọng lớn nhất trong tổng thu nhập, trong khi các nguồn như đầu tư, tự kinh doanh và lương hưu chiếm tỷ trọng nhỏ hơn.
+| Income_source   | Total_amount   |
+|:----------------|:---------------|
+| Salary_wages    | 5,649,484,875  |
+| Self_emp_income | 101,404,375    |
+| Investment      | 169,875,700    |
+| Pension         | 556,811,000    |
+
+### Biểu đồ:
+<img width="641" height="369" alt="image" src="https://github.com/user-attachments/assets/be373779-eb6d-43f5-bec0-ba40d1dbd837" />
+
+### Kết luận: Dữ liệu cho thấy thu nhập chủ yếu đến từ tiền lương (Salary_wages), chiếm tỷ trọng áp đảo trong tổng thu nhập. Các nguồn thu khác như lương hưu (Pension), đầu tư (Investment) và tự kinh doanh (Self_employment) đóng góp tỷ lệ nhỏ hơn đáng kể. Điều này cho thấy thu nhập của cá nhân trong dataset phụ thuộc mạnh vào nguồn thu từ lao động chính.
 
 # Tổng kết: Thu nhập tại Canada không chỉ phụ thuộc vào việc một người làm nhiều hay ít, mà chủ yếu được quyết định bởi vị thế của họ trong nền kinh tế, bao gồm trình độ kỹ năng, loại công việc và giai đoạn phát triển trong sự nghiệp. Bên cạnh đó, các yếu tố như giới tính, tình trạng hôn nhân và việc có tham gia lao động hay không cũng tạo ra sự khác biệt về thu nhập giữa các nhóm, nhưng chỉ đóng vai trò bổ trợ và phản ánh bối cảnh kinh tế – xã hội của từng cá nhân, chứ không phải là yếu tố quyết định chính.
